@@ -1,0 +1,119 @@
+@charset "UTF-8";
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+#wrapper header {
+    width: 827px;
+    height: 158px;
+    text-shadow: 0 0px;
+    float: left;
+    background-image: url(Assets/SixBlaneysLogoMenu.png);
+    margin-left: 0px;
+}
+header ul li {
+    float: left;
+}
+header ul li a {
+    display: block;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: underline;
+    text-align: left;
+    width: 100px;
+}
+a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+#wrapper header ul {
+    margin-top: 80px;
+    margin-left: 400px;
+}
+#wrapper #content {
+    width: 960px;
+    float: left;
+}
+#wrapper #content main {
+    width: 450px;
+    float: left;
+}
+#wrapper #content #sidebar {
+    width: 380px;
+    float: right;
+    margin-right: 75px;
+    margin-top: 40px;
+}
+#content main h1 {
+    font-size: 28px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#content main p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#content main h2 {
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #07387A;
+}
+.image {
+    border: 3px solid #F57F66;
+    margin-top: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+}
+#sidebar aside h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #15426F;
+}
+#sidebar aside p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+body {
+    background-image: url(Assets/Hesipm_background.jpg);
+    background-position: center top;
+}
+#wrapper footer {
+    width: 960px;
+    float: left;
+}
+#wrapper footer #footertext {
+    width: 450px;
+    float: left;
+}
+#footertext ul li {
+    float: left;
+}
+#footertext ul li a {
+    display: block;
+    margin-right: 20px;
+    color: #000104;
+    font-size: 12px;
+}
+#wrapper footer #copyright {
+    width: 250px;
+    float: right;
+    color: #000104;
+    font-size: 12px;
+}
